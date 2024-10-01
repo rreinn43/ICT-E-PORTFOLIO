@@ -1,0 +1,100 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.topheader {
+    background-color: #f8f7f8;
+    align-content: center;
+    height: 200;
+    width: 600;
+    text-wrap: pretty;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100;
+}
+
+
+.stretch-button {
+align-items: center;
+font-family: 'Times New Roman', Times, serif;
+  background-color: 1985A1;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: padding-top 1s,
+    padding-bottom 1s,
+    padding-left 1s,
+    padding-right 1s;
+}
+
+.stretch-button:hover {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+
+.quarter-buttons {
+
+    background-color: #a1e3e6;
+    height: 70;
+    width: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30;
+
+}
+
+.para1 {
+    padding-top: 5;
+}
+
+
+a:link {
+    color: rgb(243, 239, 239);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(229, 224, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(98, 96, 126);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .save-button {
+    background-color: 1985A1;
+    color: rgb(10, 102, 194);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+      border-width 0.15s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30;
+  }
+
+  .save-button:hover {
+    background-color: rgb(226, 240, 254);
+    border-width: 2px;
+  }
