@@ -1,0 +1,327 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+}
+
+div{
+    background-color:#c8eafdd3;
+    padding-top: 5;
+    padding-bottom: 20;
+}
+
+.topheader {
+    background-color: #f8f7f8;
+    align-content: center;
+    height: 200;
+    width: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100;
+}
+
+h1{
+    text-align: center;
+}
+h1:hover{
+    transition:color 0.5s;
+    color: #33575e;
+}
+
+
+hr{
+    border-style: solid;
+    background-color: #c8eafdd3;
+}
+
+.under{
+    border-style: none;
+    background-color: #33575e;
+}
+
+tr{
+    background-color: #7e9aaad3;
+    text-align: center;
+    height: auto;
+}
+
+td{
+    align-content: center;
+    width: 50%;
+    height: auto;
+    padding: 12px;
+
+}
+
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: 1s;
+
+}
+
+        p:hover{
+            background-color: #7e9aaad3;
+            padding: 20;
+        }
+
+video,img{
+    width: 250;
+    height: 115;
+    object-fit: cover;
+    transition: left 1s
+        height 1s
+        width 1s;
+}
+
+
+.tr2 {
+    height: fit-content;
+}
+
+
+.booklandia1 {
+    z-index: 1;
+    position: absolute; top: 830; left: 70;
+    transition: 1s;
+}
+.booklandia1:hover{
+    height: 300;
+    width: fit-content;
+    z-index: 10;
+}
+
+.booklandia2 {
+    z-index: 2;
+    position: absolute; top: 940; left: 70;
+    transition: 1s;
+}
+.booklandia2:hover{
+    top: 815;
+    left: 120;
+    height: 350;
+    width: fit-content;
+    z-index: 10;
+}
+
+.booklandia3 {
+    z-index: 3;
+    position: absolute; top: 1040; left: 70;
+    transition: 1s;
+}
+.booklandia3:hover{
+    top: 860;
+    height: 300;
+    width: fit-content;
+    z-index: 10;
+}
+
+
+
+
+
+
+.cluster1 {
+    z-index: 1;
+    position: absolute; top: 830; left: 680;
+    transition: 1s;
+}
+.cluster1:hover{
+    height: 300;
+    width: fit-content;
+    z-index: 10;
+}
+
+.cluster2 {
+    z-index: 2;
+    position: absolute; top: 940; left: 680;
+    transition: 1s;
+}
+.cluster2:hover{
+    height: 300;
+    top: 870;
+    width: fit-content;
+    z-index: 10;
+}
+
+.cluster3 {
+    z-index: 3;
+    position: absolute; top: 1040; left: 680;
+    transition: 1s;
+}
+.cluster3:hover{
+    top: 860;
+    height: 300;
+    width: fit-content;
+    z-index: 10;
+}
+
+
+
+
+
+
+.historical1 {
+    z-index: 1;
+    position: absolute; top: 1670; left: 150;
+    transition: 1s;
+}
+.historical1:hover{
+    height: 400;
+    top: 1640; left: 170;
+    width: fit-content;
+    z-index: 10;
+}
+
+.historical2 {
+    z-index: 2;
+    position: absolute; top: 1780; left: 150;
+    transition: 1s;
+}
+.historical2:hover{
+    top: 1670;
+    height: 350;
+    width: fit-content;
+    z-index: 10;
+}
+
+.historical3 {
+    z-index: 3;
+    position: absolute; top: 1890; left: 150;
+    transition: 1s;
+}
+.historical3:hover{
+    top: 1670;
+    height: 350;
+    width: fit-content;
+    z-index: 10;
+}
+
+.historical4 {
+    z-index: 1;
+    position: absolute; top: 1670; left: 890;
+    transition: 1s;
+}
+.historical4:hover{
+    height: 350;
+    left: 540;
+    width: fit-content;
+    z-index: 10;
+}
+
+.historical5 {
+    z-index: 2;
+    position: absolute; top: 1780; left: 890;
+    transition: 1s;
+}
+.historical5:hover{
+    height: 350;
+    top: 1670;
+    left: 660;
+    width: fit-content;
+    z-index: 10;
+}
+
+.historical6{
+    z-index: 3;
+    position: absolute; top: 1890; left: 890;
+    transition: 1s;
+}
+.historical6:hover{
+    top: 1670;
+    height: 350;
+    left: 540;
+    width: fit-content;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+.parade1 {
+    z-index: 1;
+    position: absolute; top: 1240; left: 150;
+    transition: 1s;
+}
+.parade1:hover{
+    height: 350;
+    top: 1240;
+    width: fit-content;
+    z-index: 10;
+}
+
+.parade2 {
+    z-index: 2;
+    position: absolute; top: 1330; left: 150;
+    transition: 1s;
+}
+.parade2:hover{
+    top: 1300; left: 75;
+    height: 250;
+    width: fit-content;
+    z-index: 10;
+}
+
+.parade3 {
+    z-index: 2;
+    position: absolute; top: 1415; left: 150;
+    transition: 1s;
+}
+.parade3:hover{
+    top: 1240;
+    height: 350;
+    width: fit-content;
+    z-index: 10;
+}
+
+.parade4 {
+    z-index: 3;
+    position: absolute; top: 1490; left: 150;
+    transition: 1s;
+}
+.parade4:hover{
+    top: 1240;
+    height: 350;
+    width: fit-content;
+    z-index: 10;
+}
+
+.parade5 {
+    z-index: 1;
+    position: absolute; top: 1240; left: 890;
+    transition: 1s;
+}
+.parade5:hover{
+    height: 350;
+    left: 540;
+    width: fit-content;
+    z-index: 10;
+}
+
+.parade6 {
+    z-index: 2;
+    position: absolute; top: 1345; left: 890;
+    transition: 1s;
+}
+.parade6:hover{
+    height: 350;
+    top: 1240;
+    left: 540;
+    width: fit-content;
+    z-index: 10;
+}
+
+.parade7{
+    z-index: 3;
+    position: absolute; top: 1460; left: 890;
+    transition: 1s;
+}
+.parade7:hover{
+    top: 1240;
+    height: 350;
+    left: 540;
+    width: fit-content;
+    z-index: 10;
+}
