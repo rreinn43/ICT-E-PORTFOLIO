@@ -6,19 +6,18 @@ body{
 .topheader {
     background-color: #f8f7f8;
     align-content: center;
-    height: 200;
-    width: 600;
+    height: 200px;
+    width: 600px;
     text-wrap: pretty;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100;
+    margin-top: 100px;
 }
 
 
 .stretch-button {
-align-items: center;
 font-family: 'Times New Roman', Times, serif;
-  background-color: 1985A1;
+  background-color: #1985A1;
   color: white;
   border: none;
   font-size: 18px;
@@ -27,6 +26,7 @@ font-family: 'Times New Roman', Times, serif;
   padding-left: 15px;
   padding-right: 15px;
   cursor: pointer;
+  vertical-align: middle;
   transition: padding-top 1s,
     padding-bottom 1s,
     padding-left 1s,
@@ -42,41 +42,43 @@ font-family: 'Times New Roman', Times, serif;
 
 
 .quarter-buttons {
-
+  display: flex;
+  justify-content: center; 
+  align-items: center;
     background-color: #a1e3e6;
-    height: 70;
-    width: 500;
+    height: 70px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30;
+    margin-top: 30px;
 
 }
 
 .para1 {
-    padding-top: 5;
+    padding-top: 5px;
 }
 
 
 a:link {
-    color: rgb(243, 239, 239);
+    color: rgb(196, 196, 196);
     background-color: transparent;
     text-decoration: none;
   }
-  
+  n
   a:visited {
-    color: rgb(229, 224, 255);
+    color: rgb(104, 151, 205);
     background-color: transparent;
     text-decoration: none;
   }
   
   a:hover {
-    color: rgb(98, 96, 126);
+    color: rgb(224, 222, 253);
     background-color: transparent;
     text-decoration: underline;
   }
 
   .save-button {
-    background-color: 1985A1;
+    background-color: #578183;
     color: rgb(10, 102, 194);
     border-width: 1px;
     border-style: solid;
@@ -91,7 +93,7 @@ a:link {
       border-width 0.15s;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30;
+    margin-top: 30px;
   }
 
   .save-button:hover {

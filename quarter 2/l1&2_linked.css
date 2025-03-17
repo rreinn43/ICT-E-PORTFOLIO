@@ -1,0 +1,14 @@
+body{
+      background-color: #FFDCCD; 
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      font-size: 12px;
+    }
+    
+    h2,h5{
+      color: #E68F6A;
+    }
+    
+    p {
+      background-color: #E68F6A; color: white;
+    }

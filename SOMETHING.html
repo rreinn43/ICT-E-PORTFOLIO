@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Hover to Enlarge</title>
+
+
+
+
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.hover-effect {
+    width: 150px; /* Default small size */
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+video {
+    width: 150px;
+    height: auto;
+}
+
+.hover-effect:hover {
+    transform: scale(2); /* Enlarges the image/video */
+    z-index: 10; /* Puts it on top of others */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+    </style>
+
+
+
+
+<script type="text/javascript">
+    document.querySelectorAll(".hover-effect").forEach(item => {
+    item.addEventListener("mouseover", function () {
+        this.style.zIndex = "10"; // Brings hovered item to front
+    });
+
+    item.addEventListener("mouseout", function () {
+        this.style.zIndex = "1"; // Resets z-index
+    });
+});
+</script>
+
+
+
+
+
+
+</head>
+<body>
+
+    <div class="gallery">
+        <img class="hover-effect" src="image1.jpg" alt="Image 1">
+        <video class="hover-effect" src="video1.mp4" muted loop></video>
+        <img class="hover-effect" src="image2.jpg" alt="Image 2">
+        <video class="hover-effect" src="video2.mp4" muted loop></video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
