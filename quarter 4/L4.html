@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ForLoop with Delay</title>
+</head>
+
+        <script type="text/javascript">
+            function firstExplosion() {
+        for (let x=0; x<10; x++) {task(x);}
+        function task(x) 
+            { setTimeout(function() 
+                { document.write(x)
+                    document.write("<br/>");
+                    if (x==9)
+                    {document.write("KABOOM");
+                    document.body.style.backgroundColor="red";
+                    }
+                }, 600 * x); 
+            } 
+        }
+    </script>
+<body align="center">
+    <button onclick="firstExplosion()">Click Me</button>
+</body>
+
+</html>
