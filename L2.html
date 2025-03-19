@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function questionChoice() {
+            var ans = confirm("blablabla");
+
+            if (ans == true) {
+                var fineGreeting = prompt("Are you feeling fine today?");
+                
+                if (fineGreeting == "yes" || fineGreeting == "sure" || fineGreeting == "yeah") 
+                    {alert("That's nice! I hope you stay happy the whole day :3");} 
+                else if (fineGreeting == "no" || fineGreeting == "nope") 
+                    {alert("Aww, I hope you feel better.");} 
+                else {alert("Oh, okay!");}                  
+            } 
+	    else {
+                var formAnswer = confirm("Can you answer these just for a bit?");
+                
+                if (formAnswer !== null) {
+                    var formQuestion = "<p>Which of these is your most favourite color?</p>";
+                    formQuestion += "<select id='colorChoice'>";
+                    formQuestion += "<option value='red'>Red</option>";
+                    formQuestion += "<option value='blue'>Blue</option>";
+                    formQuestion += "<option value='yellow'>Yellow</option>";
+                    formQuestion += "<option value='green'>Green</option>";
+                    formQuestion += "</select><br>";
+                    formQuestion += "<button onclick='changeColor()'>Submit</button>";
+
+                    document.body.innerHTML += formQuestion;
+                }
+            }
+        }
+
+        function changeColor() {
+            var selectedColor = document.getElementById("colorChoice").value;
+            document.body.style.backgroundColor = selectedColor;
+        }
+    </script>
+    <title>LESSON 2</title>
+</head>
+<body align="center">
+    <br><br><br><br>
+    <h1>Pop-up Buttons</h1>
+    <button onclick="questionChoice()">Click Me</button>
+</body>
+</html>

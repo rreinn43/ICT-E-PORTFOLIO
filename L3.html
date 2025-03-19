@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><title>LESSON 3</title>
+<script type="text/javascript">
+function add() {
+            var A = Number(document.example.firstno.value);
+            var B = Number(document.example.secondno.value);
+            return A + B;
+        }
+
+        function showResult() {
+            var sum = add();
+            if (sum !== Number)
+            {document.example.sumno.value = sum;}}
+</script>
+<style>
+    body{display: flexbox; position: absolute; top: 30%;
+        left: 25%;}
+</style>
+</head>
+<body>
+    <h1>Input two numbers and get their total</h1>
+<form name="example">
+    <input type="text" name="firstno" value="">
+    +
+    <input type="text" name="secondno" value="">
+    =
+    <input type="text" name="sumno" value="">
+    <br> <br>
+    
+    <button type="button" onclick="showResult()">Click Me</button>
+</form>
+</body>
+</html>

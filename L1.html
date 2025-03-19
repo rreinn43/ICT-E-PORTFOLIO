@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function questionCoice()
+        {var ans=confirm('Do you want to answer?');
+        if (ans==true)
+            {var colorFav=prompt('What is your favourite color? (color name or hex code)');
+            if (colorFav!=null && colorFav!='')
+            {document.bgColor=colorFav};
+            }
+        else
+            { alert("Oops, no answer");}}
+        
+            </script>
+        <title>LESSON 1</title>
+</head>
+<body align="center">
+    <br><br><br><br>
+    <h1>Pop-up Buttons</h1>
+    <button onclick="questionCoice()">Click Me</button>
+</body>
+</html>
